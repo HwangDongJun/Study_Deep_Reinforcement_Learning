@@ -1,0 +1,10 @@
+Reinforcement_Learning -> 강화학습
+크게 2가지로 나뉘게 된다.
+1. environment(현재 환경)
+2. action(현재 환경에 영향을 주는 행동)
+
+많은 action이 끝나고 난 후, 결과를 얻는다.(reward)
+
+한가지에만 특화된 것이 아닌 어떠한 environment에서 학습을 진행함으로써 다양한 환경에 적용이 가능하다.
+
+AlphaGo가 Reinforcement_Learning이다.
