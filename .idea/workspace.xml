@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41aaf1fe-8773-46ee-8f4b-3e3f0309f063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenAI_GYM/Training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenAI_GYM/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Learning_Q.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Q.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Table.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/theory.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +31,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Training.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenAI_GYM/Training.py">
+        <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+            <state relative-caret-position="627">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#35#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +61,10 @@
       <list>
         <option value="$PROJECT_DIR$/수업의개요.txt" />
         <option value="$PROJECT_DIR$/OpenAI_GYM/theory.txt" />
+        <option value="$PROJECT_DIR$/Dummy_Q_Learning/Dummy_Q_Learning.txt" />
+        <option value="$PROJECT_DIR$/Dummy_Q_Learning/Dummy_Q_Learning.py" />
         <option value="$PROJECT_DIR$/OpenAI_GYM/Training.py" />
+        <option value="$PROJECT_DIR$/Dummy_Q_Learning/Training.py" />
       </list>
     </option>
   </component>
@@ -71,7 +77,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -81,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,18 +97,29 @@
             <path>
               <item name="Study_Deep_Reinforcement_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study_Deep_Reinforcement_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Dummy_Q_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study_Deep_Reinforcement_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study_Deep_Reinforcement_Learning" type="462c0819:PsiDirectoryNode" />
               <item name="OpenAI_GYM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\군\PycharmProjects\Study_Deep_Reinforcement_Learning\Dummy_Q_Learning" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,7 +148,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078493" side_tool="true" weight="0.33388704" />
@@ -140,9 +155,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49921507" visible="true" weight="0.33388704" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49921507" visible="true" weight="0.33388704" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13657771" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26059654" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -165,6 +180,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/OpenAI_GYM/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/수업의개요.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -186,9 +211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenAI_GYM/theory.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -196,12 +218,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Learning_Q.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/OpenAI_GYM/Training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
