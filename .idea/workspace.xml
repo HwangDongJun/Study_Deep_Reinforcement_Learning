@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41aaf1fe-8773-46ee-8f4b-3e3f0309f063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Learning_Q.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Q.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Table.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/Training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dummy_Q_Learning/theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/Table.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/Training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/theory.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +29,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Training.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <element signature="e#35#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,7 +49,11 @@
         <option value="$PROJECT_DIR$/Dummy_Q_Learning/Dummy_Q_Learning.txt" />
         <option value="$PROJECT_DIR$/Dummy_Q_Learning/Dummy_Q_Learning.py" />
         <option value="$PROJECT_DIR$/OpenAI_GYM/Training.py" />
+        <option value="$PROJECT_DIR$/Dummy_Q_Learning/theory.txt" />
+        <option value="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/theory.txt" />
+        <option value="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/Traning.py" />
         <option value="$PROJECT_DIR$/Dummy_Q_Learning/Training.py" />
+        <option value="$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/Training.py" />
       </list>
     </option>
   </component>
@@ -87,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,21 +84,10 @@
               <item name="Study_Deep_Reinforcement_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study_Deep_Reinforcement_Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Study_Deep_Reinforcement_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study_Deep_Reinforcement_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Dummy_Q_Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study_Deep_Reinforcement_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study_Deep_Reinforcement_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenAI_GYM" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\군\PycharmProjects\Study_Deep_Reinforcement_Learning\Q-learning_exploit&amp;exploration_and_discounted_reward" />
       <recent name="C:\Users\군\PycharmProjects\Study_Deep_Reinforcement_Learning\Dummy_Q_Learning" />
     </key>
   </component>
@@ -157,7 +137,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49921507" visible="true" weight="0.33388704" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26059654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26687598" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -180,13 +160,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OpenAI_GYM/Training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -218,32 +215,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/theory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Learning_Q.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenAI_GYM/Training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Table.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dummy_Q_Learning/Training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="19">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q-learning_exploit&amp;exploration_and_discounted_reward/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
