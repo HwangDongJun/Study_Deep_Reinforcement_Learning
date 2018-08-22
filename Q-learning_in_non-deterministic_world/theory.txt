@@ -1,0 +1,24 @@
+Frozen Lake라고 하는 이유?
+table위에서 정확한 판단을 내려서 이동을 할 수가 없기 때문이다.
+만약 오른쪽으로 한칸을 갈려고 하는데, 호수가 언 바닥이기 때문에 오른쪽이 구멍일수도 있어서 빠질 위험도 있다.
+그리고 바람도 많이 불기 때문에 1 칸을 이동할지 오른쪽으로 2 칸을 이동할지는 아무도 모른다.
+이런걸 Stochastic (nondeterministic)라고 한다. 항상 똑같은 상황을 받는것이 아니기 때문이다.
+
+우리가 Dummy_Q_Learning / Q-learning_exploit&exploration_and_discounted_reward 에서 다른 table은 Deterministic로 항상 똑같은 상황만 주어지게 된다.
+register(
+    id='FrozenLake-v3',
+    entry_point='gym.envs.toy_text:FrozenLakeEnv',
+    kwargs={'map_name' : '4x4', 'is_slippery' : False} #is_slippery : False는 내가 이 상황이 주어졌을때, 이동시 미끄럽지 않게 하라. 즉, 한칸씩만 이동이 가능하게 한 것이다.
+)
+
+env = gym.make('FrozenLake-v3')
+
+위와 같이 설정을 하지 않고, 그냥 env = gym.make('FrozenLake-v0') 만 설정을 하게 된다면, 자동으로 is_slippery는 True가 된다.
+Right를 눌러도 움직이지 않거나 오른쪽이 아닌 아래로 이동을 하거나 아니면 올바르게 오른쪽으로 가거나... 자기 마음대로 이동을 하게 된다.
+여기서 Q_Learning을 사용하면 실패할 수 있다. 만약 이전에 오른쪽으로 가서 성공을 했다고 가정하자. 그런데 실제로는 오른쪽을 눌렀는데, 미끄러져서 아래로 이동했었다.
+아랫부분이 성공을 했기에 Q_Learning은 오른쪽이 성공했다고 믿어버리는 것이다.
+
+해결법은 Q_Learning으로 얻는 정보를 매우 조금만 사용하면 되는 것이다.
+기존의 Q(s, a) = r + γ * max_a' Q(s', a') 에서 새로운 Learning_rate (α) 를 할당하면 된다.
+(1-α) * Q(s, a) + α * [r + γ * max_a' Q(s', a')]  α를 0.1로 주면 10%만 정보를 받고 90%는 내가 알아서 움직이겠다.
+      └> 90%          └> 10%
